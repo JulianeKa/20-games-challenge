@@ -1,0 +1,13 @@
+Pong
+
+Criar os objetos da cena
+* Paredes (superior e inferior)
+* Gols
+* Bola
+* Players
+
+Criar os scripts
+* Bola
+* Players
+
+Criar o placar e seus scripts
