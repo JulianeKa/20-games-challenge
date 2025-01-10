@@ -18,16 +18,13 @@ public class Player : MonoBehaviour
         if (player == 1) {
             if (Input.GetKeyDown(KeyCode.W)) {
                 rigidbody2D.AddForce(Vector2.up * speed);
-            }
-            else if (Input.GetKeyDown(KeyCode.S)) {
+            }else if (Input.GetKeyDown(KeyCode.S)) {
                 rigidbody2D.AddForce(Vector2.down * speed);
             }
-        }
-        else {
+        }else {
             if (Input.GetKeyDown(KeyCode.UpArrow)) {
                 rigidbody2D.AddForce(Vector2.up * speed);
-            }
-            else if (Input.GetKeyDown(KeyCode.DownArrow)) {
+            }else if (Input.GetKeyDown(KeyCode.DownArrow)) {
                 rigidbody2D.AddForce(Vector2.down * speed);
             }
         }

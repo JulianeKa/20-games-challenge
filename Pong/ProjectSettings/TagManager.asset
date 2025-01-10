@@ -5,7 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - Wall
-  - Goal
+  - LeftGoal
+  - RightGoal
   layers:
   - Default
   - TransparentFX
@@ -14,9 +15,9 @@ TagManager:
   - Water
   - UI
   - Ball
-  - Goal
+  - Left Goal
   - Player
-  - 
+  - Right Goal
   - 
   - 
   - 
