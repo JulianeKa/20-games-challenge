@@ -6,37 +6,28 @@ public class Player : MonoBehaviour
     public int speed = 200;
     public Rigidbody2D rigidbody2D;
 
-    private void Start()
-    {
+    private void Start() {
         rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
-    private void Update()
-    {
+    private void Update() {
         Movement();
     }
 
-    private void Movement()
-    {
-        if (player == 1)
-        {
-            if (Input.GetKeyDown(KeyCode.W))
-            {
+    private void Movement() {
+        if (player == 1) {
+            if (Input.GetKeyDown(KeyCode.W)) {
                 rigidbody2D.AddForce(Vector2.up * speed);
             }
-            else if (Input.GetKeyDown(KeyCode.S))
-            {
+            else if (Input.GetKeyDown(KeyCode.S)) {
                 rigidbody2D.AddForce(Vector2.down * speed);
             }
         }
-        else
-        {
-            if (Input.GetKeyDown(KeyCode.UpArrow))
-            {
+        else {
+            if (Input.GetKeyDown(KeyCode.UpArrow)) {
                 rigidbody2D.AddForce(Vector2.up * speed);
             }
-            else if (Input.GetKeyDown(KeyCode.DownArrow))
-            {
+            else if (Input.GetKeyDown(KeyCode.DownArrow)) {
                 rigidbody2D.AddForce(Vector2.down * speed);
             }
         }

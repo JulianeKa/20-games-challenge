@@ -1,13 +1,15 @@
 Pong
 
 Criar os objetos da cena
-* Paredes (superior e inferior)
-* Gols
-* Bola
-* Players
+* Paredes (superior e inferior) x
+* Gols x
+* Bola x
+* Players x
 
 Criar os scripts
 * Bola
-* Players
+* Players x
 
-Criar o placar e seus scripts
+Criar o UI
+* Placar
+* Rede
